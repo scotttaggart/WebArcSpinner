@@ -1,0 +1,193 @@
+/* (c) Copyright 2015 iotlabs.us, All Rights Reserved */
+body 
+{ 
+	background: black; 
+}
+
+.iot_test_panel 
+{
+	display						: none;
+	padding-top				: 0px ;
+	padding-left			: 0px ;
+	padding-right			: 0px ;
+	padding-bottom		: 0px ;
+	background-color 	: #f00;
+	border-style			: solid;
+	border-width			: 0px;
+	border-color			: #fff;
+	border-radius			: 5px;
+
+	box-shadow				: 1px 1px 6px 2px #888;  
+
+}
+
+.iot_panel_heading
+{
+	padding-top				: 0px ;
+	padding-left			: 8px ;
+	padding-right			: 0px ;
+	padding-bottom		: 0px ;
+	border-style			: solid;
+	border-width			: 0px;
+	border-color			: #f00;
+	background-color 	: #f00;
+	font-size 				: 1em;
+	font-weight 			: 900;
+	border-radius			: 5px;
+}
+
+.iot_panel_body 
+{
+	background-color: #ccc;
+	overflow				: auto;
+	border-style		: solid;
+	border-width		: 0px;
+	border-radius		: 2em 8em 2em 8em / 4em 2em 4em 2em;
+}
+
+.iot_panel_content 
+{
+	background-color: #ccc;
+	font-size 			: 1.2em;
+	font-family			: cursive;
+	font-weight 		: bolder;
+}
+
+.iot_panel_content ul 
+{
+	padding-left		: 20px;
+	background-color: #ccc;
+	font-weight 		: bolder;
+}
+
+.ul_bigger 
+{
+	font-size 			: 1.2em;
+}
+.team_name 
+{
+	font-size 			: 1.2em;
+}
+
+.info_box_spacer
+{
+	height						: 30vh;
+	z-index						: -1000;
+}
+
+.info_box
+{
+	display						: none;
+
+	float							: right;
+	margin-right			: .5em;
+	margin-top				: 30%;
+	height						: 1.8em;
+	background-color	: #999;
+	font-size 				: 0.9em;
+	font-family				: cursive;
+	font-weight 			: bolder;
+
+	border-radius			: 2em 8em 2em 8em / 4em 2em 4em 2em;
+	border-style			: solid;
+	border-width			: 2px;
+	border-color			: #bbb;
+
+	padding-top				: 0px ;
+	padding-left			: 4px ;
+	padding-right			: 4px ;
+	padding-bottom		: 4px ;
+}
+
+.navbar-default
+{
+	min-height: 32px;
+	height: 34px;
+	background-color: #000;
+	border-width			: 0px;
+	border-color			: #000;
+}
+
+.navbar-default .navbar-nav > li > a 
+{ 
+	background-color: #000;
+	padding-top:5px; 
+	padding-bottom:5px;
+	font-size: 1.3em;
+	color: #00f;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+	background-color: #444;
+}
+.navbar-default .navbar-nav > .open > a:hover
+{
+	background-color: #666;
+}
+
+.navbar-brand
+{
+	height:32px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.dropdown-menu
+{
+	padding-left			: 2px; 
+	padding-top				: 0px; 
+	padding-bottom		: 0px;
+	background-color	: #333;
+	border-width			: 4px;
+	border-color			: #333;
+	border-radius			: 7px;
+}
+
+.iot_navbar
+{
+	display		: none;
+}
+
+/* dropdown menu items */
+#team_drop
+{
+	background-color	: #faa;
+}
+#team_drop:hover
+{
+	background-color	: #f88;
+}
+#tech_fides_drop
+{
+	background-color	: #9f9;
+}
+#tech_fides_drop:hover
+{
+	background-color	: #7d7;
+}
+#dollars_drop
+{
+	background-color	: #7df;
+}
+#dollars_drop:hover
+{
+	background-color	: #5bf;
+}
+#ping_drop
+{
+	background-color	: #ff9;
+}
+#ping_drop:hover
+{
+	background-color	: #ee5;
+}
+#soapbox_drop
+{
+	background-color	: #cff;
+}
+#soapbox_drop:hover
+{
+	background-color	: #aff;
+}
+
